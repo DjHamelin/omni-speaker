@@ -1,0 +1,2 @@
+-r requirements.txt
+zeroconf>=0.132.0

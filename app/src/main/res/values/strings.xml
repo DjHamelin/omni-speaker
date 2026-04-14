@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Mesh Audio</string>
+    <string name="notify_channel_name">Mesh Audio</string>
+    <string name="notify_transmitting_title">Transmitting audio</string>
+    <string name="notify_transmitting_text">Speakers can connect over Wi‑Fi or USB tether.</string>
+    <string name="notify_receiving_title">Receiving audio</string>
+    <string name="notify_receiving_text">Playing from %1$s</string>
+    <string name="status_tx_registered">On air as %1$s · port %2$d</string>
+    <string name="status_rx_connecting">Connecting to %1$s:%2$d…</string>
+    <string name="mode_transmitter">Transmitter</string>
+    <string name="mode_speaker">Speaker</string>
+    <string name="mode_both">Both</string>
+    <string name="start_broadcast">Start broadcast</string>
+    <string name="stop_session">Stop</string>
+    <string name="discovered">Discovered nearby</string>
+    <string name="manual_host">Host IP (Wi‑Fi or USB tether)</string>
+    <string name="manual_port">Port</string>
+    <string name="connect">Connect as speaker</string>
+    <string name="permission_mic_rationale">Microphone access is required to capture audio for transmitting.</string>
+    <string name="permission_notifications_rationale">Notifications keep broadcasting active in the background.</string>
+    <string name="clients_connected">Speakers connected: %1$d</string>
+    <string name="listening_on">Listening on port %1$d</string>
+    <string name="hint_same_network">Use the same Wi‑Fi, or USB tethering so this phone and the transmitter share a network.</string>
+    <string name="grant_perms_tx">Allow microphone and notifications</string>
+    <string name="grant_perms_rx">Allow notifications</string>
+</resources>
