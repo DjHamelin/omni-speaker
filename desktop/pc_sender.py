@@ -248,6 +248,12 @@ def main() -> int:
                     clients.remove(c)
     except KeyboardInterrupt:
         print("\nStopping…", file=sys.stderr)
+    except Exception as e:
+        print(f"Audio capture error: {e}", file=sys.stderr)
+        print(
+            "Tip: run with --list-devices and pass an input with --device <index>.",
+            file=sys.stderr,
+        )
     finally:
         running.clear()
         try:
